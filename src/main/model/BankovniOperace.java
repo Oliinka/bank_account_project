@@ -22,8 +22,9 @@ public class BankovniOperace {
         if (dispozibilniZustatek.getSumaNaUctu() > castka) {
             dispozibilniZustatek.setSumaNaUctu(dispozibilniZustatek.getSumaNaUctu() - castka);
             System.out.println("Výber úspěšně proveden. Nový zůstatek: " + dispozibilniZustatek.getSumaNaUctu());
+        } else {
+            System.out.println("Operace neprovedena, nedostatečný dispozibilní zústatek: " + dispozibilniZustatek.getSumaNaUctu());
         }
-        else {System.out.println("Operace neprovedena, nedostatečný dispozibilní zústatek: " + dispozibilniZustatek.getSumaNaUctu());}
     }
 
 

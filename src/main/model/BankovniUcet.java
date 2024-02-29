@@ -1,8 +1,8 @@
 package model;
 
 public class BankovniUcet {
-private long sumaNaUctu;
-private long limit;
+    private long sumaNaUctu;
+    private long limit;
 
 
     public long getSumaNaUctu() {
